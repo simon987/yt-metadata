@@ -148,7 +148,7 @@ def create_format(cursor, **kwargs):
 
 def create_chapter(cursor, video_id, start_time, end_time, title):
 
-    cursor.execute('INSERT INTO chatper (start_time, end_time, title, video_id) VALUES (%s,%s,%s,%s) '
+    cursor.execute('INSERT INTO chapter (start_time, end_time, title, video_id) VALUES (%s,%s,%s,%s) '
                    'ON CONFLICT DO NOTHING',
                    (start_time, end_time, title, video_id))
     print("Created chapter for " + video_id)

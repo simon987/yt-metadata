@@ -17,4 +17,4 @@ youtube-dl -v --print-traffic --restrict-filename --write-description --write-in
 * Run `import.py`
 
 ### Schema:
-![schema](https://user-images.githubusercontent.com/7120851/42966031-cb83f216-8b69-11e8-9c9e-a8bcefdc7456.png)
+![schema](https://user-images.githubusercontent.com/7120851/42967825-72bc88fe-8b6f-11e8-81a7-f8e7e17077d8.png)

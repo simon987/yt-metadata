@@ -156,21 +156,21 @@ create table subtitles
 )
 ;
 
-create table chatper
+create table chapter
 (
   id serial not null
-    constraint chatper_pkey
+    constraint chapter_pkey
     primary key,
   start_time integer not null,
   end_time integer not null,
   title text,
   video_id text not null
-    constraint chatper_video_id_fk
+    constraint chapter_video_id_fk
     references video
 )
 ;
 
-create unique index chatper_id_uindex
-  on chatper (id)
+create unique index chapter_id_uindex
+  on chapter (id)
 ;
 
