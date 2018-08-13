@@ -12,6 +12,7 @@ youtube-dl -v --print-traffic --restrict-filename --write-description --write-in
 ```
 
 ### Setup instructions:
+* Make sure you have PostgreSQL version **>=9.5** installed    
 * Create the database and schema with the tool of your choice using `schema.sql`
 * Change the directory in `import.py` so it points to the location of your youtube metadata
 * Run `import.py`
